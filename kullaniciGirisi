@@ -30,6 +30,9 @@ public class kullaniciGirisi {
 
                 if (newpassword.equals("qwe") || newpassword.equals(password)) {
                     System.out.println("ESKI SIFRENLE YENI SIFREN AYNI OLAMAZ!!");
+                    System.out.println("LUTFEN ESKI SIFRENIZDEN BASKA YENI SIFRE GIRIN:");
+                    newpassword = nmn.nextLine();
+                    System.out.println("!!SIFRENIZ BASARIYLA DEGISTIRILDI!!");
                 }
             } else {
                 System.out.println("YANLIS YA DA HATALI TUSLAMA");
